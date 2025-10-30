@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Payment Successful - BeCleaner</title>
+  <meta name="description" content="Your booking was received. Thank you for choosing BeCleaner." />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    @keyframes floatInUp {
+      from { opacity: 0; transform: translateY(30px) scale(.98); } to { opacity: 1; transform: none; }
+    }
+    .success-container {
+      max-width: 520px;
+      margin: 60px auto;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 8px 24px rgba(21,101,192,0.08);
+      padding: 32px 28px;
+      text-align: center;
+      animation: floatInUp 0.9s cubic-bezier(.51,.92,.24,1.02);
+    }
+    .success-check { font-size: 3.2rem; color: #28a745; margin-bottom: 8px; }
+    .success-container h2 { color: #28a745; margin-bottom: 12px; }
+    .success-container p { color: #444; margin-bottom: 18px; }
+    .btn-main { display:block; width:100%; padding:12px 0; border-radius:10px; background: var(--primary-1); color:#fff; text-decoration:none; font-weight:700; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="be">Be</span><span class="cleaner">cleaner</span></a>
+      <nav class="header-nav" aria-label="Top">
+        <a href="index.html">Home</a>
+        <a href="checkout.html">Book again</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="success-container" role="status" aria-live="polite">
+        <div class="success-check">&#10004;</div>
+        <h2>Payment Successful!</h2>
+        <p>Your cleaning service booking has been received.<br />You will receive a confirmation email soon.</p>
+        <a href="index.html" class="btn-main">Back to Home</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

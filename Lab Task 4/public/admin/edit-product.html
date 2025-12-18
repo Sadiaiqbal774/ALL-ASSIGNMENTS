@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Edit Product</title>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+<h2>Edit Product</h2>
+
+<form onsubmit="updateProduct(event)">
+  <input id="name" required><br>
+  <input id="price" type="number" required><br>
+  <input id="category" required><br>
+  <input id="image"><br>
+  <textarea id="description"></textarea><br>
+  <button type="submit">Update</button>
+</form>
+
+<script src="js/admin.js"></script>
+</body>
+</html>

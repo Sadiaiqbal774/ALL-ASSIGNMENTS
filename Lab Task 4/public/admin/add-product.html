@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Product</title>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+
+<h2>Add Product</h2>
+
+<form onsubmit="addProduct(event)">
+  <input id="name" placeholder="Name" required><br>
+  <input id="price" type="number" placeholder="Price" required><br>
+  <input id="category" placeholder="Category" required><br>
+  <input id="image" placeholder="Image URL"><br>
+  <textarea id="description" placeholder="Description"></textarea><br>
+  <button type="submit">Save</button>
+</form>
+
+<script src="js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<h1>All Products</h1>
+
+<table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Category</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+
+    <% products.forEach(p => { %>
+    <tr>
+        <td><%= p.name %></td>
+        <td>$<%= p.price %></td>
+        <td><%= p.category %></td>
+
+        <td><a href="/admin/products/edit/<%= p._id %>">Edit</a></td>
+        <td><a style="color:red" href="/admin/products/delete/<%= p._id %>">Delete</a></td>
+    </tr>
+    <% }) %>
+</table>

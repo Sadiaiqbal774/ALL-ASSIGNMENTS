@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BeCleaner — Professional cleaning services</title>
+  <meta name="description" content="BeCleaner — eco-friendly, reliable home and office cleaning. Book a trusted cleaner quickly." />
+
+  <!-- Styles (plain CSS only) -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="be">Be</span><span class="cleaner">cleaner</span>
+      </a>
+
+      <!-- CSS-only accessible toggle for mobile nav -->
+      <input id="nav-toggle" class="nav-toggle" type="checkbox" aria-label="Toggle navigation" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span class="hamburger" aria-hidden="true"></span>
+      </label>
+
+      <nav class="main-nav" id="main-nav" role="navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#how">How we work</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a class="btn-book" href="checkout.html">Book Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main id="main" role="main">
+    <!-- Hero -->
+    <section id="home" class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1 id="hero-heading"><span class="highlight">Spotless Spaces,</span><br />Happy Faces</h1>
+          <p class="subtitle">Let our expert team transform your home or office. Eco-friendly, trusted, and satisfaction guaranteed.</p>
+          <a class="btn-main" href="checkout.html">Book Your Cleaning</a>
+        </div>
+
+        <div class="hero-image" aria-hidden="false">
+          <!-- Replace with an optimized image. width/height hint must match the actual image file. -->
+          <img src="images/hero.png" alt="Cleaner using eco-friendly products to clean a living room" class="hero-img" width="1200" height="800" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / Features -->
+    <section id="services" class="services-section" aria-labelledby="services-heading">
+      <div class="container">
+        <h2 id="services-heading" class="services-title">We work hard to make your place clean</h2>
+
+        <div class="services-grid" role="list">
+          <article class="service-item" role="listitem">
+            <div class="service-icon" aria-hidden="true">🧹</div>
+            <div class="service-body">
+              <h3>Floor cleaning</h3>
+              <p>Expert cleaning for hardwood, tile, laminate and more — safe and thorough.</p>
+            </div>
+          </article>
+
+          <article class="service-item" role="listitem">
+            <div class="service-icon" aria-hidden="true">🪟</div>
+            <div class="service-body">
+              <h3>Window cleaning</h3>
+              <p>Streak-free windows that brighten your rooms and outlook.</p>
+            </div>
+          </article>
+
+          <article class="service-item" role="listitem">
+            <div class="service-icon" aria-hidden="true">🧺</div>
+            <div class="service-body">
+              <h3>Laundry</h3>
+              <p>Gentle, organized laundry service — wash, dry, fold and return.</p>
+            </div>
+          </article>
+
+          <article class="service-item" role="listitem">
+            <div class="service-icon" aria-hidden="true">🗑️</div>
+            <div class="service-body">
+              <h3>Trash & recycling</h3>
+              <p>Responsible removal and sorting of waste to keep your space healthy.</p>
+            </div>
+          </article>
+
+          <article class="service-item" role="listitem">
+            <div class="service-icon" aria-hidden="true">✨</div>
+            <div class="service-body">
+              <h3>Extra shiny</h3>
+              <p>Deep polishing and finishing touches that make surfaces gleam.</p>
+            </div>
+          </article>
+
+          <article class="service-item" role="listitem">
+            <div class="service-icon" aria-hidden="true">👕</div>
+            <div class="service-body">
+              <h3>Cloth ironing</h3>
+              <p>Professional pressing for a neat, polished wardrobe.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How we work -->
+    <section id="how" class="how-we-work" aria-labelledby="how-heading">
+      <div class="container text-center">
+        <h2 id="how-heading" class="how-we-work-banner">HOW WE WORK</h2>
+
+        <div class="how-steps" role="list">
+          <div class="how-step" role="listitem">
+            <div class="how-step-circle" aria-hidden="true">1</div>
+            <div class="how-step-text">
+              <h3>Book a slot</h3>
+              <p>Choose a date and the service you need in a few clicks.</p>
+            </div>
+          </div>
+
+          <div class="how-step" role="listitem">
+            <div class="how-step-circle" aria-hidden="true">2</div>
+            <div class="how-step-text">
+              <h3>We arrive on time</h3>
+              <p>Trained, uniformed professionals arrive with the right supplies.</p>
+            </div>
+          </div>
+
+          <div class="how-step" role="listitem">
+            <div class="how-step-circle" aria-hidden="true">3</div>
+            <div class="how-step-text">
+              <h3>Enjoy a clean home</h3>
+              <p>Leave the cleaning to us — we follow up to ensure you're satisfied.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social proof: logos + testimonials -->
+    <section id="testimonials" class="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <h2 id="testimonials-heading" class="section-title">Trusted by customers & partners</h2>
+
+      
+
+        <!-- Testimonials -->
+        <div class="testimonials-grid" role="list">
+          <figure class="testimonial-card" role="listitem">
+            <img src="images/client1.jpg" alt="Portrait of Sarah M., client" class="testimonial-img" width="200" height="200" loading="lazy" />
+            <blockquote class="testimonial-text">“SparkleClean did an amazing job! My house has never looked better.”</blockquote>
+            <figcaption class="client-name">— Sarah M.</figcaption>
+          </figure>
+
+          <figure class="testimonial-card" role="listitem">
+            <img src="images/client2.jpg" alt="Portrait of James K., client" class="testimonial-img" width="200" height="200" loading="lazy" />
+            <blockquote class="testimonial-text">“Professional, quick, and eco-friendly. I highly recommend their services!”</blockquote>
+            <figcaption class="client-name">— James K.</figcaption>
+          </figure>
+
+          <figure class="testimonial-card" role="listitem">
+            <img src="images/client3.jpg" alt="Portrait of Ayesha R., client" class="testimonial-img" width="200" height="200" loading="lazy" />
+            <blockquote class="testimonial-text">“Booked online, and they handled everything perfectly. Very happy!”</blockquote>
+            <figcaption class="client-name">— Ayesha R.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Secondary CTA -->
+    <section class="secondary-cta" aria-labelledby="secondary-cta-heading">
+      <div class="container">
+        <div class="cta-inner">
+          <h2 id="secondary-cta-heading">Ready to make your home sparkle?</h2>
+          <p class="cta-sub">Book a trusted cleaner in 2 minutes — flexible scheduling and eco-friendly products.</p>
+          <a class="btn-main cta-large" href="checkout.html">Book Now — It's Easy</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Short about/features -->
+    <section id="about" class="about-section" aria-labelledby="about-heading">
+      <div class="container features-grid">
+        <div class="feature" role="article">
+          <h3 id="about-heading">Eco friendly</h3>
+          <p>We use biodegradable products that are safe for children and pets while remaining effective.</p>
+        </div>
+
+        <div class="feature" role="article">
+          <h3>Trusted team</h3>
+          <p>Background-checked, trained staff who respect your space and time.</p>
+        </div>
+
+        <div class="feature" role="article">
+          <h3>Easy booking</h3>
+          <p>Simple, transparent pricing and scheduling — book online or call us.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div>
+        <p>© 2025 BeCleaner — All rights reserved.</p>
+        <p class="footer-small">Images are examples. Replace with optimized images in the images/ folder.</p>
+      </div>
+
+      <nav aria-label="Footer links" class="footer-links">
+        <ul>
+          <li><a href="mailto:hello@becleaner.example">hello@becleaner.example</a></li>
+          <li><a href="tel:+1234567890">+1 (234) 567-890</a></li>
+          <li><a href="/privacy.html">Privacy</a></li>
+          <li><a href="/terms.html">Terms</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

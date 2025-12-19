@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Orders</title>
+</head>
+<body>
+
+<h2>Orders for <%= email %></h2>
+
+<% if (orders.length === 0) { %>
+  <p>No orders found</p>
+<% } %>
+
+<table border="1" cellpadding="10">
+  <tr>
+    <th>Order ID</th>
+    <th>Date</th>
+    <th>Total</th>
+    <th>Status</th>
+  </tr>
+
+  <% orders.forEach(order => { %>
+    <tr>
+      <td><%= order._id %></td>
+      <td><%= order.createdAt.toDateString() %></td>
+      <td><%= order.total %></td>
+      <td><%= order.status %></td>
+    </tr>
+  <% }) %>
+</table>
+
+</body>
+</html>

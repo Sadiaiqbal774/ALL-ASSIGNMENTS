@@ -1,0 +1,12 @@
+<h3>Total: <%= total %></h3>
+
+<% if (discount > 0) { %>
+  <h3>Discount: -<%= discount %></h3>
+  <h2>Final Total: <%= discountedTotal %></h2>
+<% } %>
+
+<form method="POST" action="/order/confirm">
+  <button type="submit">Confirm Order</button>
+</form>
+
+<button onclick="history.back()">Go Back</button>
